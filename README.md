@@ -12,4 +12,4 @@ Put the `sbt` script in your project root directory to make sure the tests can b
 Put the `precommit` script in the `.git/hooks` directory of your project. This will enable the hook.
 
 ## I want to commit without testing (I swear this is the last time :o)
-If you want to commit without using the hook you can do so by using `git commit -m "Message" --no-verify`
+If you want to commit without testing you can use `git commit -m "Message" --no-verify`
